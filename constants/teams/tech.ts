@@ -4,25 +4,25 @@ export const techTeam: Member[] = [
     {
         id: "1", 
         src: "/team/tech/arya.jpg",
-        alt: "Arya Patel",
-        name: "Arya Patel", 
+        alt: "Naman ",
+        name: "Naman ", 
     },
     {
         id: "2",
         src: "/team/tech/veer.jpg",
-        alt: "Veer Singh",
-        name: "Veer Singh",
+        alt: "Shivansh",
+        name: "Shivansh",
     },
     {
         id: "3",
         src: "/team/tech/tara.jpg",
-        alt: "Tara Das",
-        name: "Tara Das",
+        alt: "Arham",
+        name: "Arham",
     },
     {
         id: "4",
         src: "/team/tech/ishan.jpg",
-        alt: "Ishan Verma",
-        name: "Ishan Verma",
+        alt: "Vedant",
+        name: "Vedant",
     },
 ];  

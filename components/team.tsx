@@ -43,7 +43,7 @@ export function TeamGrid({ title, images, backgroundImage }: ImageGridProps) {
             {images.map((image) => (
               <div key={image.id} className="flex flex-col items-center gap-3 sm:gap-4">
                 {/* Image Container */}
-                <div className="w-full aspect-square rounded-2xl overflow-hidden bg-gray-400 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="w-full  max-w-[350px] max-h-[350px]aspect-square rounded-2xl overflow-hidden bg-gray-400 shadow-lg hover:shadow-xl transition-shadow">
                   <Image
                     src={image.src || "/placeholder.svg"}
                     alt={image.alt}
